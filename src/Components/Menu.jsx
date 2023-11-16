@@ -24,7 +24,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../Redux/userSlice";
 
 const Container = styled.div`
-  flex: 1.1;
+  flex: 1.3;
   background-color: ${({ theme }) => theme.bgLight};
   height: 100vh;
   color: ${({ theme }) => theme.text};
@@ -90,6 +90,12 @@ const Button = styled.button`
   justify-content: center;
   border-radius: 5px;
 `;
+const Title =  styled.h2`
+font-size :14px;
+font-weight:500;
+color: #aaaaaa;
+margin-bottom:20px
+`;
 
 export default function Menu({ darkMode, setDarkMode }) {
   const dispatch = useDispatch();
@@ -149,6 +155,7 @@ export default function Menu({ darkMode, setDarkMode }) {
               </Link>
             </Login>
             <Hr />
+            <Title>Best of Experience</Title>
           </>
         ) : (
           <>

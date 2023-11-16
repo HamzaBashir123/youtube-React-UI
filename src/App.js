@@ -7,7 +7,8 @@ import { darkTheme, lightTheme } from "./utils/Theme";
 import { Route, BrowserRouter, Routes, redirect } from "react-router-dom";
 import SignIn from "./pages/SignIn";
 import Search from "./pages/Search";
-import Menu from "./components/Menu";
+import Menu from "./Components/Menu.jsx";
+
 
 const Container = styled.div`
   display: flex;

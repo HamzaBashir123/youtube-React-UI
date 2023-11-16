@@ -22,15 +22,16 @@ const Wrapper = styled.div`
     background-color: ${({ theme }) => theme.bgLight};
     border: 1px solid ${({ theme }) => theme.soft};
     padding: 20px 50px;
-    gap: 10px;
+    gap: 5px;
 `;
 
 const Title = styled.h1`
+    font-size: 20px;
     
 `
 
 const SubTitle = styled.h2`
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 200;
 `
 
